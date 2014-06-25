@@ -45,9 +45,7 @@
   <div class="site-header">
     <div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
     <div class="container">
-      <nav class="site-nav">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'site-nav-item' ) ); ?>
-      </nav>
+      <?php wp_nav_menu( array( 'theme_location' => 'primary') ); ?>
     </div>
   </div><!-- .site-header -->
 </div><!-- .site-masthead -->

@@ -62,7 +62,7 @@ h6, .h6, {
  * Masthead for nav
  */
 
-.site-nav {
+.menu-main-nav-container {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
