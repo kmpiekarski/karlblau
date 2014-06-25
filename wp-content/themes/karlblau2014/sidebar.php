@@ -11,10 +11,10 @@
 <div class="col-sm-3 col-sm-offset-1 site-sidebar">
   <div class="sidebar-module">
     <nav class="site-nav">
-      <a class="site-nav-item" href="#"><img src="img/icons/soundcloud-icon.png" width="32" /></a>
-      <a class="site-nav-item" href="#"><img src="img/icons/facebook-icon.png" width="32" /></a>
-      <a class="site-nav-item" href="#"><img src="img/icons/tumblr-icon.png" width="32" /></a>
-      <a class="site-nav-item" href="#"><img src="img/icons/twitter-icon.png" width="32" /></a>
+      <a class="site-nav-item" href="#"><img src="/wp-content/themes/karlblau2014/img/icons/soundcloud-icon.png" width="32" /></a>
+      <a class="site-nav-item" href="#"><img src="/wp-content/themes/karlblau2014/img/icons/facebook-icon.png" width="32" /></a>
+      <a class="site-nav-item" href="#"><img src="/wp-content/themes/karlblau2014/img/icons/tumblr-icon.png" width="32" /></a>
+      <a class="site-nav-item" href="#"><img src="/wp-content/themes/karlblau2014/img/icons/twitter-icon.png" width="32" /></a>
     </nav>
 
 		<?php if ( has_nav_menu( 'secondary' ) ) : ?>
