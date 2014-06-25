@@ -40,19 +40,17 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="container" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
+<div class="hfeed site container">
+	<div class="site-masthead">
 		<div class="site-header">
 			<div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 			<div class="container">
         <nav class="site-nav">
-          <button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
-          <a class="site-nav-item" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'site-nav-item' ) ); ?>
         </nav>
       </div>
-		</div><!-- site-header -->
-	</header><!-- #masthead -->
+		</div><!-- .site-header -->
+	</div><!-- .site-masthead -->
 
 	<div class="site-main">
 		<div class="row">
