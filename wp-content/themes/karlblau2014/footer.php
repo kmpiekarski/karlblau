@@ -10,8 +10,8 @@
  */
 ?>
 
-		</div><!-- #main --><!-- /.row -->
-	</div><!-- #page --><!-- /.container -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
 
 	<footer class="site-footer">
 		<?php get_sidebar( 'footer' ); ?>
@@ -20,7 +20,6 @@
     </p>
 	</footer><!-- .site-footer -->
 
-	<?php wp_footer(); ?>
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -28,5 +27,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/wp-content/themes/karlblau2014/js/bootstrap.min.js"></script>
   <script src="/wp-content/themes/karlblau2014/js/docs.min.js"></script>
+
+  <?php wp_footer(); ?>
 </body>
 </html>
