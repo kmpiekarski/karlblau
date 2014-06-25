@@ -66,7 +66,32 @@ h6, .h6, {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
+
+ul#menu-main-nav {
+	display: inline-block;
+}
+
+li.menu-item {
+	float: left;
+  list-style: none;
+  padding: 0px;
+  margin:0px;
+}
+li.menu-item a {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 500;
+	color: #cdddeb;
+}
+
+li.menu-item a:hover {
+	text-decoration: none;
+}
+
+
 .site-masthead {
   /*background-color: #428bca;*/
   /*background: rgba(27,27,27,.5);*/
