@@ -20,46 +20,50 @@
 <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="favicon.ico">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
+  <!-- Custom styles for this template -->
+  <link href="/wp-content/themes/karlblau2014/css/karlblau.css" rel="stylesheet">
+  <link href="/wp-content/themes/karlblau2014/css/bootstrap.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<?php if ( get_header_image() ) : ?>
-	<div id="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-		</a>
-	</div>
-	<?php endif; ?>
-
+<div id="container" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<div class="site-header">
+			<div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 
-			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
-			</div>
+			<!--<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text"><?php /*_e( 'Search', 'twentyfourteen' );*/ ?></a>
+			</div> -->
 
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav>
-		</div>
+			<div class="container">
+        <nav class="site-nav">
+          <button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
+          <a class="site-nav-item" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+        </nav>
+      </div>
+		</div><!-- site-header -->
 
-		<div id="search-container" class="search-box-wrapper hide">
+		<!-- <div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
-				<?php get_search_form(); ?>
+				<?php /*get_search_form();*/ ?>
 			</div>
-		</div>
+		</div> -->
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
+		<div class="row">
