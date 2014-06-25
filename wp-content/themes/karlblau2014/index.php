@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-<div id="main-content" class="main-content">
+<div class="col-sm-8 site-main">
 
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
@@ -54,7 +54,7 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>
-</div><!-- #main-content -->
+</div><!-- .site-main -->
 
 <?php
 get_sidebar();
