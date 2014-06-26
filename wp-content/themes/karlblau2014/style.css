@@ -77,13 +77,16 @@ h6, .h6, {
 
 ul#menu-main-nav {
 	display: inline-block;
+  padding:  0px;
 }
 
 li.menu-item {
-	float: left;
+	/*float: left;*/
   list-style: none;
   padding: 0px;
-  margin:0px;
+  margin:0px auto;
+  text-align: center;
+  display: inline-block;
 }
 li.menu-item a {
 	position: relative;
@@ -95,7 +98,8 @@ li.menu-item a {
   text-decoration: none;
 }
 
-li.menu-item a:hover {
+li.menu-item a:hover,
+li.current_page_item a {
 	text-decoration: none;
   background: none;
   text-decoration: none;
