@@ -170,7 +170,7 @@ function twentyfourteen_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Primary Sidebar', 'twentyfourteen' ),
 		'id'            => 'sidebar-1',
-		'description'   => __( 'Main sidebar that appears on the left.', 'twentyfourteen' ),
+		'description'   => __( 'Main sidebar that appears on the right..', 'twentyfourteen' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',

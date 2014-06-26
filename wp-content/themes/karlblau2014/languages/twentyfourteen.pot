@@ -164,7 +164,7 @@ msgid "Primary Sidebar"
 msgstr ""
 
 #: functions.php:173
-msgid "Main sidebar that appears on the left."
+msgid "Main sidebar that appears on the right.."
 msgstr ""
 
 #: functions.php:180
