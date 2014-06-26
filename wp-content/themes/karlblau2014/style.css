@@ -164,6 +164,10 @@ li.menu-item a:hover {
  * Main column and sidebar layout
  */
 
+.sidebar-module .widget-title {
+  font-size: 18px;
+}
+
 .site-main {
   font-size: 16px;
   line-height: 1.5;
@@ -171,7 +175,8 @@ li.menu-item a:hover {
 
 /* Sidebar modules for boxing content */
 .social-icons,
-.sidebar-module h4{
+.sidebar-module h4,
+.widget-title {
   text-align: center;
 }
 .sidebar-module {
