@@ -19,10 +19,10 @@ get_header(); ?>
 <div class="col-sm-8 site-main opaque-back">
 
 <?php
-	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
+	/*if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
 		// Include the featured content template.
 		get_template_part( 'featured-content' );
-	}
+	}*/
 ?>
 
 	<div id="primary" class="content-area">
