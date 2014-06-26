@@ -95,10 +95,15 @@ li.menu-item a {
 	padding: 10px;
 	font-weight: 500;
 	color: #cdddeb;
+  background: none;
+  text-decoration: none;
 }
 
 li.menu-item a:hover {
 	text-decoration: none;
+  background: none;
+  text-decoration: none;
+  color: #aac0d4;
 }
 
 
