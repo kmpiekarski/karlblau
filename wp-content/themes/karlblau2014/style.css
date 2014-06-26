@@ -170,6 +170,7 @@ li.menu-item a:hover {
 }
 
 /* Sidebar modules for boxing content */
+.social-icons,
 .sidebar-module h4{
   text-align: center;
 }
@@ -254,4 +255,13 @@ li.menu-item a:hover {
   margin:0px;
 
 }
+
+
+@media (max-width: 768px) {
+  .sidebar-module,
+  .page-title {
+    text-align: center;
+  }
+}
+
 
