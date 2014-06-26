@@ -31,18 +31,5 @@
 		</div><!-- #primary-sidebar -->
 		<?php endif; ?>
 
-    <h4>SHOWS</h4>
-    <p>
-      <ul>
-
-<!-- TEMPORARY//REMOVE WHEN IMPLEMENTED -->
-        <li>08/14 // Art Depot – Anacortes, WA</li>
-        <li>08/15 // Seattle – Bellingham, WA</li>
-        <li>08/16 // Hollow Earth Radio – Seattle, WA</li>
-        <li>08/17 // Mississippi Studios – Portland, OR</li>
-        <li>08/18 // The Northern – Olympia, WA</li>
-
-      </ul>
-    </p>
   </div>
 </div><!-- /.site-sidebar -->
