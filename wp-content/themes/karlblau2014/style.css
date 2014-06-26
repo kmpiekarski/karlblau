@@ -30,6 +30,16 @@ body {
   background-size: cover;
 }
 
+a,
+a:visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+a:hover {
+  background: #89b0f8;
+  color: #333333;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
