@@ -62,7 +62,7 @@
 
 
 			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'karlblau' ); ?></a>
+				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
 			</div>
 
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
@@ -82,8 +82,8 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 
 
-					<button class="menu-toggle"><?php _e( 'Primary Menu', 'karlblau' ); ?></button>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'karlblau' ); ?></a>
+					<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
+				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
 					<!-- <ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#about">About</a></li>

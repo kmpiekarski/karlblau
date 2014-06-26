@@ -29,7 +29,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <!-- Custom styles for this template -->
-  <!-- <link href="/wp-content/themes/karlblau2014/css/karlblau.css" rel="stylesheet"> -->
+  <!-- <link href="/wp-content/themes/karlblau2014/css/twentyfourteen.css" rel="stylesheet"> -->
   <link href="/wp-content/themes/karlblau2014/css/bootstrap.min.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>

@@ -14,7 +14,7 @@
       <a class="site-nav-item" href="https://soundcloud.com/karl_blau" target="_blank"><img src="/wp-content/themes/karlblau2014/img/icons/soundcloud-icon.png" width="32" /></a>
       <a class="site-nav-item" href="www.facebook.com/pages/Karl-Blau/121113991324019" target="_blank"><img src="/wp-content/themes/karlblau2014/img/icons/facebook-icon.png" width="32" /></a>
       <a class="site-nav-item" href="#" target="_blank"><img src="/wp-content/themes/karlblau2014/img/icons/tumblr-icon.png" width="32" /></a>
-      <a class="site-nav-item" href="https://twitter.com/KarlBlau" target="_blank"><img src="/wp-content/themes/karlblau2014/img/icons/twitter-icon.png" width="32" /></a>
+      <a class="site-nav-item" href="https://twitter.com/twentyfourteen" target="_blank"><img src="/wp-content/themes/karlblau2014/img/icons/twitter-icon.png" width="32" /></a>
     </nav>
 
 		<?php if ( has_nav_menu( 'secondary' ) ) : ?>

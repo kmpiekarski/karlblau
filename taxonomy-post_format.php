@@ -27,28 +27,28 @@ get_header(); ?>
 				<h1 class="archive-title">
 					<?php
 						if ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', 'karlblau' );
+							_e( 'Asides', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', 'karlblau' );
+							_e( 'Images', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', 'karlblau' );
+							_e( 'Videos', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-audio' ) ) :
-							_e( 'Audio', 'karlblau' );
+							_e( 'Audio', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', 'karlblau' );
+							_e( 'Quotes', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', 'karlblau' );
+							_e( 'Links', 'twentyfourteen' );
 
 						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
-							_e( 'Galleries', 'karlblau' );
+							_e( 'Galleries', 'twentyfourteen' );
 
 						else :
-							_e( 'Archives', 'karlblau' );
+							_e( 'Archives', 'twentyfourteen' );
 
 						endif;
 					?>
@@ -68,7 +68,7 @@ get_header(); ?>
 
 					endwhile;
 					// Previous/next page navigation.
-					karlblau_paging_nav();
+					twentyfourteen_paging_nav();
 
 				else :
 					// If no content, include the "No posts found" template.
