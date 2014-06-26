@@ -11,7 +11,7 @@
 ?>
 
 <article class="site-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
+
 
 	<header class="entry-header">
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
@@ -28,7 +28,6 @@
 			?>
 		</div><!-- .entry-meta -->
 		<?php
-			endif;
 
 			if ( is_single() ) :
 				the_title( '<h1 class="site-post-title">', '</h1>' );
