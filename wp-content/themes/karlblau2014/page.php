@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-<div class="col-sm-8 site-main">
+<div class="col-sm-8 site-main opaque-back">
 
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
