@@ -25,13 +25,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
-a,
-a:visited {
+.widget-area a,
+.widget-area a:visited,
+.site-main a,
+.site-main a:visited {
   color: #FFF;
   text-decoration: underline;
 }
-a:hover {
+.widget-area a:hover,
+.site-main a:hover {
   background: #89b0f8;
   color: #333333;
 }
@@ -109,7 +111,7 @@ li.current_page_item a {
 
 .site-masthead {
   /*background-color: #428bca;*/
-  /*background: rgba(27,27,27,.5);*/
+  background: rgba(27,27,27,.2);
   box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
   margin-bottom: 20px;
   padding-top: 20px;
@@ -189,6 +191,7 @@ li.current_page_item a {
   font-size: 16px;
   line-height: 1.5;
   margin-top: 68px;
+  border-radius: 4px;
 }
 
 /* Sidebar modules for boxing content */
