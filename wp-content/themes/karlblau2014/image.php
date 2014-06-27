@@ -67,8 +67,6 @@ get_header();
 				</div><!-- .nav-links -->
 			</nav><!-- #image-navigation -->
 
-			<?php comments_template(); ?>
-
 		<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
