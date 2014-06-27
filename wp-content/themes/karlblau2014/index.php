@@ -25,9 +25,6 @@ get_header(); ?>
 	}*/
 ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.
@@ -51,8 +48,6 @@ get_header(); ?>
 			endif;
 		?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>
 </div><!-- .site-main -->
 
