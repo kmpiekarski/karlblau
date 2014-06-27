@@ -204,7 +204,7 @@ li.current_page_item a {
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 992px) {
   .sidebar-module {
