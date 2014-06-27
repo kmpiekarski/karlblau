@@ -15,9 +15,6 @@
 
 	<footer class="site-footer">
 		<?php get_sidebar( 'footer' ); ?>
-    <p>
-      <a href="#">hop to top!</a>
-    </p>
 	</footer><!-- .site-footer -->
 
 
