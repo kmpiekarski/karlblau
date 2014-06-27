@@ -48,7 +48,7 @@ get_header(); ?>
 			endif;
 		?>
 
-	<?php get_sidebar( 'content' ); ?>
+	<?php //get_sidebar( 'content' ); ?>
 </div><!-- .site-main -->
 
 <?php
