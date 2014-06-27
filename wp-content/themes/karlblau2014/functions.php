@@ -89,15 +89,25 @@ function twentyfourteen_setup() {
 	 * to output valid HTML5.
 	 */
 	add_theme_support( 'html5', array(
+		'search-form', 'gallery', 'caption'
+	) );
+	/*
+	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	) );
+	*/
 
 	/*
 	 * Enable support for Post Formats.
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
+/*
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',
+	) );
+*/
+	add_theme_support( 'post-formats', array(
+		'image','gallery',
 	) );
 
 	// This theme allows users to set a custom background.
@@ -235,11 +245,11 @@ function twentyfourteen_scripts() {
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style', 'genericons' ), '20131205' );
 	wp_style_add_data( 'twentyfourteen-ie', 'conditional', 'lt IE 9' );
-
+/*-------DISABLE COMMENTS
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-
+--------*/
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( 'twentyfourteen-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20130402' );
 	}
