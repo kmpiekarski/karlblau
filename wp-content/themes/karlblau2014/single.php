@@ -9,8 +9,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div class="col-sm-8 site-main opaque-back">
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -27,8 +26,7 @@ get_header(); ?>
 
 				endwhile;
 			?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		</div><!-- #site-main -->
 
 <?php
 get_sidebar( 'content' );
