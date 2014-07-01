@@ -17,11 +17,19 @@
 		<?php
 			if ( is_single() ) :
 				the_title( '<h1 class="site-post-title">', '</h1>' );
+
+			print'<span class="meta-date">';
+			the_date();
+			print '</span>';
+
 			else :
 				the_title( '<h1 class="site-post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
+			print'<span class="meta-date">';
+			the_date();
+			print '</span>';
+
 			endif;
 		?>
-
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
 		<div class="site-post-meta entry-meta">
 			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfourteen' ) ); ?></span>

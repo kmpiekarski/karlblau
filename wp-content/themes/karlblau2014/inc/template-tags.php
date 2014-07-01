@@ -77,14 +77,16 @@ function twentyfourteen_post_nav() {
 
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'twentyfourteen' ); ?></h1>
+		<!-- <h1 class="screen-reader-text"><?php _e( 'Post navigation', 'twentyfourteen' ); ?></h1> -->
+		<hr>
 		<div class="nav-links">
 			<?php
 			if ( is_attachment() ) :
-				previous_post_link( '%link', __( '<span class="meta-nav">Published In</span>%title', 'twentyfourteen' ) );
+				previous_post_link( '%link', __( '<span class="meta-nav">Published In</span>&nbsp;"%title"', 'twentyfourteen' ) );
 			else :
-				previous_post_link( '%link', __( '<span class="meta-nav">Previous Post</span>%title', 'twentyfourteen' ) );
-				next_post_link( '%link', __( '<span class="meta-nav">Next Post</span>%title', 'twentyfourteen' ) );
+				previous_post_link( '%link', __( '<span class="meta-nav">Previous Post</span>&nbsp;"%title"', 'twentyfourteen' ) );
+				print '<span>&nbsp;&nbsp;//&nbsp;&nbsp;</span>';
+				next_post_link( '%link', __( '<span class="meta-nav">Next Post</span>&nbsp;"%title"', 'twentyfourteen' ) );
 			endif;
 			?>
 		</div><!-- .nav-links -->
