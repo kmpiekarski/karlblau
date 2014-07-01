@@ -19,7 +19,7 @@ Text Domain: twentyfourteen
 body {
   font-family: "Gentium Basic", serif, Georgia, "Times New Roman", Times;
   color: #555;
-  background: url(img/fillet-of-studio-cover.jpg) no-repeat center center fixed;
+  background: url(img/karl-blau-as-background-cover-png-8.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,11 +31,17 @@ body {
 .site-main a:visited {
   color: #FFF;
   text-decoration: underline;
+  -o-transition:.10s;
+  -ms-transition:.10s;
+  -moz-transition:.10s;
+  -webkit-transition:.10s;
+  /* ...and now for the proper property */
+  transition:.10s;
 }
 .widget-area a:hover,
 .site-main a:hover {
-  background: #89b0f8;
-  color: #333333;
+  background: #ff00cc;
+  color: #FFF;
 }
 
 h1, .h1,
@@ -96,9 +102,16 @@ li.menu-item a {
 	display: inline-block;
 	padding: 10px;
 	font-weight: 500;
-	color: #cdddeb;
+  /*color: #cdddeb;*/
+  color: yellow;
   background: none;
   text-decoration: none;
+  -o-transition:.10s;
+  -ms-transition:.10s;
+  -moz-transition:.10s;
+  -webkit-transition:.10s;
+  /* ...and now for the proper property */
+  transition:.10s;
 
 }
 
@@ -107,14 +120,15 @@ li.current_page_item a {
 	text-decoration: none;
   background: none;
   text-decoration: none;
-  color: #aac0d4;
+  color: #ff00cc;
+  /*color: #aac0d4;*/
 }
 
 
 .site-masthead {
   /*background-color: #428bca;*/
-  background: rgba(27,27,27,.2);
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  /*background: rgba(27,27,27,.2);
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);*/
   margin-bottom: 20px;
   padding-top: 20px;
 }
@@ -172,6 +186,10 @@ li.current_page_item a {
   color: rgba(0,0,0,.2);
   /* overrides customize.js which automatically sets the site-title and site-description to absolute */
   position: relative !important;
+}
+.site-title img {
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 .site-description {
   font-size: 20px;
@@ -289,6 +307,27 @@ li.current_page_item a {
   .sidebar-module,
   .page-title {
     text-align: center;
+  }
+  .site-title img {
+    width: 65%;
+  }
+  .site-sidebar,
+  .site-main {
+    margin: auto 15px;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+ .site-title img {
+    width: 100%;
+  }
+  .site-sidebar,
+  .site-main {
+    margin: auto 5px;
+  }
+  body {
+  background-size: 568px auto;
+  background-attachment:fixed;
+  background-position: center bottom;
   }
 }
 

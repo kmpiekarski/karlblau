@@ -1,4 +1,0 @@
-twentyfourteen
-========
-
-twentyfourteen.com

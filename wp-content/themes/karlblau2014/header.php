@@ -44,7 +44,7 @@
 
 <div class="site-masthead">
   <div class="site-header">
-    <div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
+    <div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php /*bloginfo( 'name' );*/ ?><img src="/wp-content/themes/karlblau2014/img/karl-blau-header-yellow.png"></a></div>
     <div class="container">
       <?php wp_nav_menu( array( 'theme_location' => 'primary') ); ?>
     </div>
