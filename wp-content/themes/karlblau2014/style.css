@@ -19,6 +19,7 @@ Text Domain: twentyfourteen
 body {
   font-family: "Gentium Basic", serif, Georgia, "Times New Roman", Times;
   color: #555;
+  text-shadow: 1px 1px 1px #000000;
   background: url(img/karl-blau-as-background-cover-png-8.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,7 +59,7 @@ h6, .h6, {
 
 .opaque-back {
   color: #FFF;
-  background-color: rgba(000, 000, 000, .30);
+  background-color: rgba(000, 000, 000, .40);
 }
 
 /*
@@ -272,7 +273,7 @@ li.current_page_item a {
   margin-bottom: 20px;
   color: #999;
 }
-.site-post p {
+.entry-content > p {
   text-indent:20px;
 }
 .meta-nav {
@@ -330,6 +331,11 @@ li.current_page_item a {
     margin: auto 15px;
   }
 }
+@media (min-width: 768px) {
+  .site-main {
+    min-height: 684px;
+  }
+}
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
  .site-title img {
     width: 100%;
@@ -363,4 +369,7 @@ li.current_page_item a {
 
 .meta-date {
   background-color: rgba(000, 000, 000, .90);
+}
+.em-location-map-container {
+  text-shadow: none;
 }

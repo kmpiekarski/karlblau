@@ -28,6 +28,7 @@ get_header(); ?>
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.
+				print'<h1 class="entry-title">News<em>!</em></h1>';
 				while ( have_posts() ) : the_post();
 
 					/*

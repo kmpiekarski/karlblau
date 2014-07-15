@@ -13,6 +13,8 @@
 		// Page thumbnail and title.
 
 		the_title( '<header class="entry-header"><h1 class="entry-title">', '</h1></header><!-- .entry-header -->' );
+
+			edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 	?>
 
 	<div class="entry-content">
@@ -25,7 +27,6 @@
 				'link_after'  => '</span>',
 			) );
 
-			edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
